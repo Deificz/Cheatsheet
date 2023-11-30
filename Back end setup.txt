@@ -1,0 +1,21 @@
+1. express PROJECTNAME --view=pug
+
+2. cd PROJECTNAME
+   npm install
+
+3. npm install --save-dev nodemon
+
+4. On package.json 
+  
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "dev": "SET DEBUG=PROJECTNAME:* & npm run devstart"
+  },
+
+5. npm run dev
+
+
+if express-generator not installed
+
+1. npm install express-generator -g

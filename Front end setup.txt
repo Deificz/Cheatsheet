@@ -1,0 +1,26 @@
+1. npm create vite@latest PROJECTNAME -- --template react
+
+2. on .eslint type "no-unused-vars": "disable",
+
+3. npm install -D tailwindcss postcss autoprefixer
+
+4. npx tailwindcss init -p
+
+5. on tailwind.config type 
+
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+6. on index.css type
+
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+7. npm run dev
+
+mostly used library 
+
+1. npm i react-router-dom
