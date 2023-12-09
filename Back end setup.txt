@@ -1,3 +1,4 @@
+BACKEND WITH PUG
 1. express PROJECTNAME --view=pug
 
 2. cd PROJECTNAME
@@ -19,3 +20,15 @@
 if express-generator not installed
 
 1. npm install express-generator -g
+
+
+API BACKEND
+1. npm init
+2. npm i express mongoose
+3. npm i --save-dev dotenv nodemon 
+4. "scripts": {
+  "dev": "nodemon server.js"
+}
+5. create .gitignore and .env
+
+
